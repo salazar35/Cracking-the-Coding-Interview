@@ -93,18 +93,6 @@ To add in Markdown format, use this code:
 
 [@salazar35](https://github.com/salazar35).
 
-## Contributing
-
-Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
-
-Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
-
-### Contributors
-
-This project exists thanks to all the people who contribute. 
-#<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
-
-
 ## License
 
-[MIT](LICENSE) © Richard Littauer
+[salazar35](LICENSE) © Hieudd
