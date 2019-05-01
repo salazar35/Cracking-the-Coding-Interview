@@ -1,8 +1,6 @@
-# Standard Readme
+# Python tips and tricks
 
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-> Standard Readme Style
+> Python tips and tricks
 
 These are quick tips and tricks that I collected in the journey with Python.
 
