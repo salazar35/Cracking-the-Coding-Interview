@@ -61,6 +61,8 @@ To use the generator, look at [generator-standard-readme](https://github.com/Ric
 
 ## Badge
 
+> it's under constructing
+
 If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
