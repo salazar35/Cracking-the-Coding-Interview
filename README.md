@@ -39,11 +39,7 @@ From the start, I were a system engineer. I start to learn Python 3 years ago, b
 
 ## Install
 
-This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
-
-```sh
-$ npm install --global standard-readme-spec
-```
+Nothings need to be installed here!
 
 ## Usage
 
@@ -74,6 +70,10 @@ To add in Markdown format, use this code:
 ```
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ```
+
+## Example Readmes
+
+## Related Efforts
 
 ## Maintainers
 
