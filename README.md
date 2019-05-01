@@ -49,7 +49,7 @@ Nothings need to be installed here!
 ```
 # A set is an unordered collection of items. Every element is unique (no duplicates) and must be immutable (which cannot be changed).
 >>> rel = sorted(set(*list_name*))
-*or*
+**or**
 >>> rel = sorted(list(set(*list_name*)))
 ```
 
