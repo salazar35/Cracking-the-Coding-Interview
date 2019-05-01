@@ -16,7 +16,7 @@ This repository contains:
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-	- [Generator](#generator)
+	- [Sort](#sort)
 - [Badge](#badge)
 - [Example Readmes](#example-readmes)
 - [Related Efforts](#related-efforts)
@@ -32,7 +32,6 @@ From the start, I were a system engineer. I start to learn Python 3 years ago, b
 
 > Remember: the documentation, not the code, defines what a module does.
 
-~ [Ken Williams, Perl Hackers](http://mathforum.org/ken/perl_modules.html#document)
 
 **Writing READMEs is way too hard, and keeping them maintained is difficult. By offloading this process - making writing easier, making editing easier, making it clear whether or not an edit is up to spec or not - you can spend less time worry about whether or not your initial documentation is good, and spend more time writing and using code.**
 
@@ -55,9 +54,12 @@ $ standard-readme-spec
 # Prints out the standard-readme spec
 ```
 
-### Generator
+### Sort
 
-To use the generator, look at [generator-standard-readme](https://github.com/RichardLitt/generator-standard-readme). There is a global executable to run the generator in that package, aliased as `standard-readme`.
+- To sort and deduplicate a list, use this structure:
+```
+>>> rel = sorted(set(list))
+```
 
 ## Badge
 
