@@ -61,7 +61,7 @@ To use the generator, look at [generator-standard-readme](https://github.com/Ric
 
 ## Badge
 
-> it's under constructing
+> **It's under constructing**
 
 If your README is compliant with Standard-Readme and you're on GitHub, it would be great if you could add the badge. This allows people to link back to this Spec, and helps adoption of the README. The badge is **not required**.
 
