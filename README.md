@@ -26,7 +26,7 @@ This repository contains:
 
 ## Background
 
-Standard Readme started with the issue originally posed by [@maxogden](https://github.com/maxogden) over at [feross/standard](https://github.com/feross/standard) in [this issue](https://github.com/feross/standard/issues/141), about whether or not a tool to standardize readmes would be useful. A lot of that discussion ended up in [zcei's standard-readme](https://github.com/zcei/standard-readme/issues/1) repository. While working on maintaining the [IPFS](https://github.com/ipfs) repositories, I needed a way to standardize Readmes across that organization. This specification started as a result of that.
+From the start, I were a system engineer. I start to learn Python 3 years ago, but it was not continuous. Now when I decide to start again in a serious way, I'm at age of 30s. I always confuse about it, and it seems to be stupid when I decide to leave my current job to follow my dream...
 
 > Note: use "more than" symbol (>) to print like that.
 
@@ -74,6 +74,8 @@ To add in Markdown format, use this code:
 ## Maintainers
 
 [@salazar35](https://github.com/salazar35).
+
+## Contributing
 
 ## License
 
