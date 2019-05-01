@@ -48,9 +48,9 @@ Nothings need to be installed here!
 - To sort and deduplicate a list, use this structure:
 ```
 # A set is an unordered collection of items. Every element is unique (no duplicates) and must be immutable (which cannot be changed).
->>> rel = sorted(set(*list_name*))
-**or**
->>> rel = sorted(list(set(*list_name*)))
+>>> rel = sorted(set(list_name))
+# Or:
+>>> rel = sorted(list(set(list_name)))
 ```
 
 ## Badge
