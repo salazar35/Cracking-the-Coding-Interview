@@ -89,18 +89,9 @@ To add in Markdown format, use this code:
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ```
 
-## Example Readmes
-
-To see how the specification has been applied, see the [example-readmes](example-readmes/).
-
-## Related Efforts
-
-- [Art of Readme](https://github.com/noffle/art-of-readme) - 💌 Learn the art of writing quality READMEs.
-- [open-source-template](https://github.com/davidbgk/open-source-template/) - A README template to encourage open-source contributions.
-
 ## Maintainers
 
-[@RichardLitt](https://github.com/RichardLitt).
+[@salazar35](https://github.com/salazar35).
 
 ## Contributing
 
@@ -111,7 +102,7 @@ Standard Readme follows the [Contributor Covenant](http://contributor-covenant.o
 ### Contributors
 
 This project exists thanks to all the people who contribute. 
-<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
+#<a href="graphs/contributors"><img src="https://opencollective.com/standard-readme/contributors.svg?width=890&button=false" /></a>
 
 
 ## License
