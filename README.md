@@ -14,7 +14,8 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
-- [Container Types](#container-types)
+- [Terminology](#terminology)
+	- [Container Types](#container-types)
 - [Usage](#usage)
 	- [Sort](#sort)
 - [Badge](#badge)
@@ -37,7 +38,9 @@ From the start, I were a system engineer. I start to learn Python 3 years ago, b
 
 `As well, standardizing can help elsewhere. By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.`
 
-## Container Types
+## Terminology
+
+### Container Types
 
 Containers are any object that holds an arbitrary number of other objects. Generally, containers provide a way to access the contained objects and to iterate over them.
 
