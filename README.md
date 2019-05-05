@@ -14,7 +14,7 @@ This repository contains:
 ## Table of Contents
 
 - [Background](#background)
-- [Install](#install)
+- [Container Types](#container-types)
 - [Usage](#usage)
 	- [Sort](#sort)
 - [Badge](#badge)
@@ -37,9 +37,19 @@ From the start, I were a system engineer. I start to learn Python 3 years ago, b
 
 `As well, standardizing can help elsewhere. By having a standard, users can spend less time searching for the information they want. They can also build tools to gather search terms from descriptions, to automatically run example code, to check licensing, and so on.`
 
-## Install
+## Container Types
 
-Nothings need to be installed here!
+Containers are any object that holds an arbitrary number of other objects. Generally, containers provide a way to access the contained objects and to iterate over them.
+
+Examples of containers include `tuple`, `list`, `set`, `dict`; these are the *built-in containers*. More container types are available in the [![collections module](http://docs.python.org/dev/library/collections.html#module-collections)].
+
+Strictly speaking, the [![collections.abc.Container](http://docs.python.org/dev/library/collections.abc.html#collections.abc.Container)] abstract base class ([![collections.Container](http://docs.python.org/library/collections.html#collections.Container)] in Python2) holds for any type that supports the in operator via the `__contains__` magic method; so if you can write `x in y` then `y` is usually a container, but not always: an important point of difference between containers and general iterables is that when iterated over, containers will return existing objects that they hold a reference to, while generators and e.g. `file` objects will create a new object each time. This has implications for garbage collection and deep object traversal (e.g. `deepcopy` and serialisation).
+
+As an example, `iter(lambda: random.choice(range(6)), 0)` supports the `in` operator, but it is certainly _not_ a container!
+
+The intent of the `Collections.abc.Container` abstract base class in only considering the `__contains__` magic method and not other ways of supporting the `in` operator is that a true container should be able to test for containment in a single operation and without observably changing internal state. Since `Collections.abc.Container` defines `__contains__` as an abstract method, you are guaranteed that if `isinstance(x, collections.abc.Container)` then `x` supports the `in` operator.
+
+In practice, then, all containers will have the `__contains__` magic method. However, when testing whether an object is a container you should use `isinstance(x, collections.abc.Container)` for clarity and for forward compatibility should the `Container` subclass check ever be changed.
 
 ## Usage
 
